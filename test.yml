@@ -1,0 +1,6 @@
+---
+- name: Ping hosts
+  hosts: your_host_group
+  tasks:
+    - name: Ping hosts
+      ping:
